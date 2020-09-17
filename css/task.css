@@ -1,0 +1,74 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+.mainDiv{
+    width: 600px;
+    height: 600px;
+    background-color:aqua; 
+    margin: 0 auto;
+    font-size: 0;
+}
+.mainDiv > div{
+    
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.red{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.yellow{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.green{
+    background-color: red ;
+    height: 200px;
+    width: 200px;
+}
+.red1{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.yellow1{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    
+}
+.green1{
+    background-color: yellow ;
+    height: 200px;
+    width: 200px;
+}
+.red2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    
+}
+.yellow2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.green2{
+    background-color: green ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+

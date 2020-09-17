@@ -2,10 +2,28 @@ html{
     box-sizing: border-box;
 }
 body {
-    background-color: cyan;
+    background-color: white;
 }
 .mainDiv{
     width: 600px; 
     height: 600px;
-    background-color:grey;
+    background-color:blue;
+    margin: 0 auto;
+    font-size: 0;
+}
+.mainDiv > div{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 50%;
+
+}
+.red {
+    background-color: red; 
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
 }
